@@ -14,7 +14,7 @@ It is not necessary to check for ```Platform.OS === 'android'``` as the module w
 
 ```
 npm install --save react-native-huawei-protected-apps@latest
-react-native link
+react-native link react-native-huawei-protected-apps
 ```
   
 ## Usage
