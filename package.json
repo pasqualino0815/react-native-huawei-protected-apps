@@ -1,0 +1,39 @@
+{
+  "name": "react-native-huawei-protected-apps",
+  "version": "0.1.3",
+  "description": "Customized dialog alerting the user of the battery save mode 'Protected Apps' of Huawei smartphones",
+  "main": "react-native-huawei-protected-apps",
+  "directories": {
+    "src": "src"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "rnpm": {
+    "android": {
+      "packageInstance": "new HuaweiProtectedAppsPackage()",
+      "sourceDir": "./android"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pgengoux/react-native-huawei-protected-apps.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "android",
+    "Huawei",
+    "Protected",
+    "apps"
+  ],
+
+  "author": "Pascal Gengoux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pgengoux/react-native-huawei-protected-apps/issues"
+  },
+  "homepage": "https://github.com/pgengoux/react-native-huawei-protected-apps",
+  "dependencies": {
+  }
+}
