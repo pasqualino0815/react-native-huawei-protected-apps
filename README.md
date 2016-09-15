@@ -20,7 +20,7 @@ react-native link react-native-huawei-protected-apps
 ## Usage
 
 ```javascript
-import HuaweiProtectedApps 'react-native-huawei-protected-apps';
+import HuaweiProtectedApps from 'react-native-huawei-protected-apps';
 
 const config = {
   title: "Huawei Protected Apps",
@@ -28,7 +28,8 @@ const config = {
   doNotShowAgainText: "Do not show again",
   positiveText: "PROTECTED APPS",
   negativeText: "CANCEL"
-}
+};
+
 HuaweiProtectedApps.AlertIfHuaweiDevice(config);
 ```
 
