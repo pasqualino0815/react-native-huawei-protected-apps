@@ -32,7 +32,8 @@ const config = {
 
 HuaweiProtectedApps.AlertIfHuaweiDevice(config);
 ```
-
+<img src="screenshots/screen1.png?raw=tru" width="300px" />
+<img src="screenshots/screen2.png?raw=tru" width="300px" />
   
 ## Credits
 Special thanks to https://github.com/Aiuspaktyn and his post on http://stackoverflow.com/a/35220476/6826609
