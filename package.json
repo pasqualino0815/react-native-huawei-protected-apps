@@ -1,6 +1,6 @@
 {
   "name": "react-native-huawei-protected-apps",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Customized dialog alerting the user of the battery save mode 'Protected Apps' of Huawei smartphones",
   "main": "index.js",
   "directories": {
@@ -31,5 +31,8 @@
   },
   "homepage": "https://github.com/pgengoux/react-native-huawei-protected-apps",
   "dependencies": {
+  },
+  "peerDependencies": {
+    "react-native": ">=0.47"
   }
 }
