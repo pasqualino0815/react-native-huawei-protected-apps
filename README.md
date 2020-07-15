@@ -1,5 +1,5 @@
 # Android module react-native-huawei-protected-apps
-Huawei devices have enabled by default a battery safe mode called 'Protected Apps'. Freshly installed apps are flagged by default (if not popular enough) as 'not protected'. This feature prevents the apps from receiving push notifications (GCM, FCM, ...) in background. This module allows showing a customized dialog to prevent the user and to allow him to navigate directly to the corresponding settings activity.
+Huawei devices have enabled by default a battery safe mode called 'Protected Apps'. Freshly installed apps are flagged by default (if not popular enough) as 'not protected'. This feature prevents the apps from receiving push notifications (GCM, FCM, ...) in background. This module allows showing a customized dialog to alert the user over that issue from Huawei allowing him to navigate directly to the corresponding settings activity.
 
 ### Notes & limitations
 
