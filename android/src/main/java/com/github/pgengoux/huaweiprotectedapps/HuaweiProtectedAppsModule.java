@@ -41,6 +41,9 @@ public class HuaweiProtectedAppsModule extends ReactContextBaseJavaModule implem
 
     @ReactMethod
     public void AlertIfHuaweiDevice(String title, String message, String dontShowAgainText, String positiveText, String negativeText) {
+        if (this.getCurrentActivity() == null) {
+            return;
+        }
         // read "do not show again" flag
         final SharedPreferences settings = this.getCurrentActivity().getSharedPreferences("ProtectedApps",Context.MODE_PRIVATE);
         final String saveIfSkip = "skipProtectedAppsMessage";
